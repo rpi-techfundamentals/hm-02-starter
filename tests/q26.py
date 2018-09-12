@@ -6,8 +6,8 @@ test = {
       'cases': [
         {
           'code': r"""
-          >>> sepal_length[3]
-          4.6
+          >>> (sepal_length[3]-4.6)<0.001
+          True
           """,
           'hidden': False,
           'locked': False
